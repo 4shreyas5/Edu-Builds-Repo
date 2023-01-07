@@ -3,11 +3,34 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.css'
+
+// import {
+//   BrowserRouter ,
+//   Routes,
+//   Route,
+//   Link
+// } from "react-router-dom";
+
+// import Navbar from './components/Navbar';
+// import Dashboard from './components/Dashboard';
+// import Profile from './components/Profile';
+// import {Login}  from './components/Login';
+// import {Register} from './components/Register';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <App/>
+  {/* <BrowserRouter>
+  
+    <Routes>
+      <Route index element={<App />} />
+      <Route path="login" element={<Login />} />
+      <Route path="dashboard" element={<Dashboard />} />
+    </Routes>
+  </BrowserRouter> */}
+
   </React.StrictMode>
 );
 
